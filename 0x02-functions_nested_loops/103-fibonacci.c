@@ -11,7 +11,7 @@ int main(void)
 {
 
 	int x = 0;
-	long y = 1, z = 2, sum = y;
+	long y = 1, z = 2, sum = z;
 
 	while (y + z < 4000000)
 	{
