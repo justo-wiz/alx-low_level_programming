@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - Check for digit (0 thru 9)
- * @c: The digit to be computed
+ * @a: The digit to be computed
  * Return: 1 if is a digit 0 if otherwise
  */
 
