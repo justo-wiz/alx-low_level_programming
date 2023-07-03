@@ -4,7 +4,7 @@
  * _memcpy - Entry point
  * @dest: input
  * @src: input
- * @n input
+ * @n: input
  *
  * Return: Always 0
  */
