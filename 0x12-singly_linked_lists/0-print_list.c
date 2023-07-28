@@ -3,7 +3,7 @@
 /**
  * print_list - print all element in the singly linked list
  * @h: head of the list
- * Reurn:total no of nodes in the list
+ * Return: total no of nodes in the list
  */
 
 
