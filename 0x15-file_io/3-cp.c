@@ -3,6 +3,10 @@
 #include <stdlib.h>
 
 #define BUF_SIZE 1024
+void err_98(int f1, char *buffer, char *argv);
+void err_99(int f1, char *buffer, char *argv);
+void err_100(int f1, char *buffer);
+
 /**
  * main - Entry point
  * @argc: no of arguments
@@ -10,10 +14,6 @@
  *
  * Return: Always 0.
  */
-
-void err_98(int f1, char *buffer, char *argv);
-void err_99(int f1, char *buffer, char *argv);
-void err_100(int f1, char *buffer);
 
 
 int main(int argc, char **argv)
@@ -63,7 +63,7 @@ void err_98(int f1, char *buffer, char *argv)
 	if (f1 < 0)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv);
-			free(buffer);
+		free(buffer);
 		exit(98);
 	}
 }
